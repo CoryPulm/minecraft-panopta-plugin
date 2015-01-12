@@ -17,7 +17,7 @@ class MinecraftPlugin(agent_util.Plugin):
         msg = None
         if not True:
             status = agent_util.MISCONFIGURED
-            msg = "The Minecraft plugin is not configured properly"
+            msg = "The Minecraft plugin is not configured properly\nCheck for mcstatus Python module"
 
         metadata = {
             "players": {
