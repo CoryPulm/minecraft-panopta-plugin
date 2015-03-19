@@ -9,6 +9,9 @@ mcstatus
 Python 2.7
 <br />
 <br />
-Just download this and drop it into your plugins folders at:
+Just download this and drop it into your plugins folder:
 <br />
 /usr/lib/panopta-agent/plugins
+<br />
+Then run the agent command to rebuild the metadata:
+python /usr/bin/panopta-agent/panopta_agent.py --rebuild-metadata
