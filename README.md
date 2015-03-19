@@ -14,4 +14,5 @@ Just download this and drop it into your plugins folder:
 /usr/lib/panopta-agent/plugins
 <br />
 Then run the agent command to rebuild the metadata:
+<br />
 python /usr/bin/panopta-agent/panopta_agent.py --rebuild-metadata
